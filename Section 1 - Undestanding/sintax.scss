@@ -1,0 +1,12 @@
+$font-size: 14px;
+$border: 1px solid black;
+h1 {
+    font-size: $font-size;
+    border: $border;
+}
+
+/* É a mesma coisa que: */
+h1 {
+    font-size: 14px;
+    border: 1px solid black;
+}
