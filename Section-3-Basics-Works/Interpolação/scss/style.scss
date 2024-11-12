@@ -1,0 +1,9 @@
+/*! Comentário */
+$cor:'black';
+$propriedade: font;
+
+/* #{$cor}*/
+.#{$cor}{
+    color: #{$cor};
+    #{$propriedade}-size: 14px;
+}

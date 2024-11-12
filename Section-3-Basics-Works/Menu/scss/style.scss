@@ -1,0 +1,35 @@
+/*! Comentário */
+$primary-color: #d75893;
+$cor-hover: #fff;
+$altura-menu: 40px;
+
+body{
+    margin: 0px;
+}
+
+#menu {
+    width: 100%;
+    background: #d75893;
+    margin: 0px;
+    ul{
+        width: 800px;
+        margin: 0 auto;
+        list-style: none;
+        li{
+            display: inline;
+            a{
+                line-height: 0;
+                padding: $altura-menu/2 15px;
+                display: inline-block; // tratado como bloco
+                color: #fff;
+                text-decoration: none;
+
+                &:hover, &:focus{
+                    background: $cor-hover;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    
+}

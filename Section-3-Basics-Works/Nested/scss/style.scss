@@ -1,0 +1,31 @@
+/*! Comentário */
+#main {
+    width: 97%;
+    p, div{
+        color: #000;
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    h1{
+        font-size: 150%;
+        color: red;
+    }
+}
+
+#content {
+    background: black;
+    font-size: 14px;
+    div h1{
+        font-size: 30px;
+    }
+    a{
+        color: black;
+    }
+    a:hover{
+        color: red;
+    }
+}
