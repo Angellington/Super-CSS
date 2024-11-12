@@ -1,0 +1,11 @@
+/*Compressed comprimido - SCSS*/
+#main {
+  font-size: 14px;
+  border: 1px solid black;
+}
+
+#main p {
+  width: 10em;
+}
+
+/*# sourceMappingURL=compressed.css.map */
