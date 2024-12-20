@@ -1,0 +1,34 @@
+/* Type datas 
+
+- Numbers (Ex> 1.5, 10, 250px
+    Follows the unit Ex: 12px, 2em, 10,
+
+- String with quote or without quotes Ex: "literal", "content", principal
+    Are $nome: Angel
+
+- Colors: red, $cccccc, rgba(255, 2555, 0, 0.6
+    Are values separetes to , or spaces]
+    Array
+    there are (10px, 20px) (30px, 40px) mother
+    there are 10px 10px, 30px, 40px (to son
+
+- Bool (Null, true, false)
+    $var-v: true; , $var-f: false; $var-n: null;
+
+- Value List: ex: 1.5em 2em 0 ou Halvetica, Arial, sans-serif
+- Maps to value to another: key1: value1, key2: value2
+
+    $map: ('key1: value1,
+            key2: value2,
+            key3: value3)
+
+        to acess ,map, using
+        $color: map-get($map, key1)
+
+
+to know the type using at
+type-of(data)
+type_of(data)
+
+
+*/
