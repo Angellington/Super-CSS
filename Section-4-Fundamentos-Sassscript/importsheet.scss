@@ -1,0 +1,26 @@
+/* 
+Imports
+
+Using @Import
+What I am import?
+
+.scss, .ssass or .css
+
+starts with: http://;
+nome do arquivo uma url()
+And if @Import has media queries
+
+----------------------
+@import "reset.sass"
+@import "variables.scss"
+@import "archive.scss" screen;
+
+@import url("https:/fonts.googleapis.com/css?family=Robot");
+
+or
+
+@import 'reset', 'variable';
+
+
+
+*/

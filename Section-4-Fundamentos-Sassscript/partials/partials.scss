@@ -1,0 +1,21 @@
+/*
+
+Arquivos partials devem ser gravados com o underscore (_) no início::after
+
+_reset.scss
+_variables.scss
+_mixins_scss
+
+
+// Importando
+_reset.scss, _variables.scss
+
+Importation
+
+@import 'reset', 'variables';
+
+todos os arquivos com
+
+Todos os arquivos com _underscore serão ignorados na compilação
+
+*/
