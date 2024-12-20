@@ -1,0 +1,37 @@
+%component-pai{
+    color: red;
+    font-size: 14px;
+}
+
+.componente-filho{
+    @extend %component-pai;
+    background-color: black;
+}
+
+// Permite varias diretivas
+
+%componente1{
+    color: red;
+    font-size: 14px;
+}
+
+%componente2{
+    @extend %componente1;
+    background: black;
+}
+
+%componente3{
+    @extend %componente2;
+    font-size: x-large;
+}
+
+// % - Porcentagem, um seletor que não é pre processado
+
+%erro{
+    border: 0cap;
+}
+
+.compo{
+    @extend %erro;
+}
+

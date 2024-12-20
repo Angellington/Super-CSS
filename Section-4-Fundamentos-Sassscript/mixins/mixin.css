@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* 
+Mixins - >
+
+Bloco de c´digo escrito em sass, que pode ser incluido uma ou mais vezes em arquivo ssass
+
+é muito bom para componentes... mixins são para componentes
+
+
+*/
+#main {
+  font: 30px/1.4 sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-variante: small-caps;
+  background: black;
+  color: white;
+}
+
+#section {
+  font: 30px/1.4 sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  background: black;
+  color: white;
+}
+
+.card {
+  -webkit-box-shadpw: 0px 4px 4px #ccc, 2px 5px 8x #888;
+  -moz-box-shadow: 0px 4px 4px #ccc, 2px 5px 8x #888;
+  box-shadow: 0px 4px 4px #ccc, 2px 5px 8x #888;
+}
+
+/*# sourceMappingURL=mixin.css.map */

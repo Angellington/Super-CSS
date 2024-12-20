@@ -1,1 +1,55 @@
-/* */
+/* 
+Mixins - >
+
+Bloco de c´digo escrito em sass, que pode ser incluido uma ou mais vezes em arquivo ssass
+
+é muito bom para componentes... mixins são para componentes
+
+
+*/
+
+//Declare
+@mixin color{
+    background: black;;
+    color: white;
+}
+
+
+//Import
+#main{
+    font: 30px/1.4 sans-serif;
+    font: {
+        style: italic;
+        weight: bold;
+        variante: small-caps;
+    }
+    @include color;
+}
+
+$cor-bg: #fff;
+$cor-texto: #000;
+
+@mixin coloring($cor-bg, $cor-texto: black){
+    background: $cor-bg;
+    color: $cor-texto;
+};
+
+#section{
+    font: 30px/1.4 sans-serif;
+    font:{
+        style: italic;
+        weight: bold;
+    }
+    @include coloring(black, white)
+}
+
+// Com argumentos desconhecidos
+
+@mixin box-shadow($sombas...){
+    -webkit-box-shadpw: $sombas;
+        -moz-box-shadow: $sombas;
+            box-shadow: $sombas;
+}
+.card{
+    @include box-shadow((0px 4px 4px #ccc, 2px 5px 8x #888))
+}
