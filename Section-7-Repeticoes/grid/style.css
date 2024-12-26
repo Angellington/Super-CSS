@@ -1,0 +1,73 @@
+.linha {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-l1, .col-l2, .col-l3, .col-l4, .col-l5, .col-l6, .col-l7, .col-l8, .col-l9, .col-l10, .col-l11, .col-l12 {
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  float: left;
+}
+
+.col-l12 {
+  width: 100%;
+  background: grey;
+}
+
+.col-l11 {
+  width: 91.6666666667%;
+  background: grey;
+}
+
+.col-l10 {
+  width: 83.3333333333%;
+  background: grey;
+}
+
+.col-l9 {
+  width: 75%;
+  background: grey;
+}
+
+.col-l8 {
+  width: 66.6666666667%;
+  background: grey;
+}
+
+.col-l7 {
+  width: 58.3333333333%;
+  background: grey;
+}
+
+.col-l6 {
+  width: 50%;
+  background: grey;
+}
+
+.col-l5 {
+  width: 41.6666666667%;
+  background: grey;
+}
+
+.col-l4 {
+  width: 33.3333333333%;
+  background: grey;
+}
+
+.col-l3 {
+  width: 25%;
+  background: grey;
+}
+
+.col-l2 {
+  width: 16.6666666667%;
+  background: grey;
+}
+
+.col-l1 {
+  width: 8.3333333333%;
+  background: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
