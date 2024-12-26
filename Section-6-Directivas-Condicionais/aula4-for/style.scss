@@ -1,0 +1,6 @@
+@for $i from 1 to 10 {
+    .item-#{$i} {
+      background: lighten(#F35, $i * 5%);
+    }
+  }
+  

@@ -1,0 +1,22 @@
+@for usa uma variavel contadora que é incrementada
+Normalmente o próprio valor da variável contadora é utilizado no script.
+
+@for $i from 1 through 4 {
+    div.item-#{$i}{ width: 20% * $i; }
+}
+
+// Output
+div.item-1 {width: 20%; }
+div.item-2 {width: 40%; }
+div.item-3 {width: 60%; }
+div.item-4 {width: 80%; }
+
+
+@for $i from 1 to 4 {
+    div.item-#{$i}{ width: 20% * $i; }
+}
+
+// Output
+div.item-1 {width: 20%; }
+div.item-2 {width: 40%; }
+div.item-3 {width: 60%; }
